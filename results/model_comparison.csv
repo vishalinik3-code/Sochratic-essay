@@ -1,0 +1,7 @@
+Model,model_key,Accuracy,Precision (macro),Recall (macro),Macro F1,Weighted F1,Training Time (s),Prediction Time (s)
+TF-IDF + Logistic Regression,tfidf_logreg,0.5968,0.5577,0.5833,0.5661,0.6034,6.3655,0.0051
+TF-IDF + Linear SVM,tfidf_svm,0.595,0.5463,0.5553,0.5501,0.5987,12.1452,0.0146
+Sentence Transformer + MLP,sbert_mlp,0.5911,0.5368,0.5232,0.529,0.5879,732.2501,111.4132
+TF-IDF + Random Forest,tfidf_rf,0.6478,0.6447,0.4882,0.4949,0.599,71.448,0.2191
+Word Embedding + BiLSTM,embed_bilstm,0.5828,0.5138,0.4841,0.4936,0.5693,2401.8125,2.6668
+Word Embedding + LSTM,embed_lstm,0.5723,0.4972,0.4661,0.4755,0.5576,1943.6565,1.6982

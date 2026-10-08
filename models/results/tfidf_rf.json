@@ -1,0 +1,16 @@
+{
+  "model_key": "tfidf_rf",
+  "model_name": "TF-IDF + Random Forest",
+  "accuracy": 0.6478,
+  "precision_macro": 0.6447,
+  "recall_macro": 0.4882,
+  "macro_f1": 0.4949,
+  "weighted_f1": 0.599,
+  "training_time_seconds": 71.448,
+  "prediction_time_seconds": 0.2191,
+  "labels": [
+    "Adequate",
+    "Effective",
+    "Ineffective"
+  ]
+}

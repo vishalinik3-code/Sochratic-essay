@@ -1,0 +1,12 @@
+Model: TF-IDF + Logistic Regression
+============================================================
+              precision    recall  f1-score   support
+
+    Adequate       0.70      0.60      0.65      4196
+   Effective       0.60      0.66      0.63      1865
+ Ineffective       0.37      0.49      0.42      1292
+
+    accuracy                           0.60      7353
+   macro avg       0.56      0.58      0.57      7353
+weighted avg       0.62      0.60      0.60      7353
+

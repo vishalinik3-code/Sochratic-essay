@@ -1,0 +1,21 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Keep private/source datasets out of GitHub
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*.csv
+
+# This trained artifact exceeds GitHub's 100 MB per-file limit
+models/saved/tfidf_rf/

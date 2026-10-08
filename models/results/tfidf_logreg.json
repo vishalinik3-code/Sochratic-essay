@@ -1,0 +1,16 @@
+{
+  "model_key": "tfidf_logreg",
+  "model_name": "TF-IDF + Logistic Regression",
+  "accuracy": 0.5968,
+  "precision_macro": 0.5577,
+  "recall_macro": 0.5833,
+  "macro_f1": 0.5661,
+  "weighted_f1": 0.6034,
+  "training_time_seconds": 6.3655,
+  "prediction_time_seconds": 0.0051,
+  "labels": [
+    "Adequate",
+    "Effective",
+    "Ineffective"
+  ]
+}

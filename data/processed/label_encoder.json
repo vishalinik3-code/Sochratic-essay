@@ -1,0 +1,12 @@
+{
+  "classes": [
+    "Adequate",
+    "Effective",
+    "Ineffective"
+  ],
+  "class_to_id": {
+    "Adequate": 0,
+    "Effective": 1,
+    "Ineffective": 2
+  }
+}

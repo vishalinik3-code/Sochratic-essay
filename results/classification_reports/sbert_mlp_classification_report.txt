@@ -1,0 +1,12 @@
+Model: Sentence Transformer + MLP
+============================================================
+              precision    recall  f1-score   support
+
+    Adequate       0.66      0.70      0.68      4196
+   Effective       0.58      0.51      0.54      1865
+ Ineffective       0.38      0.36      0.37      1292
+
+    accuracy                           0.59      7353
+   macro avg       0.54      0.52      0.53      7353
+weighted avg       0.59      0.59      0.59      7353
+

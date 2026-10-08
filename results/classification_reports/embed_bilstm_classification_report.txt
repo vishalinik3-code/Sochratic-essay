@@ -1,0 +1,12 @@
+Model: Word Embedding + BiLSTM
+============================================================
+              precision    recall  f1-score   support
+
+    Adequate       0.63      0.73      0.68      4196
+   Effective       0.58      0.48      0.53      1865
+ Ineffective       0.33      0.24      0.27      1292
+
+    accuracy                           0.58      7353
+   macro avg       0.51      0.48      0.49      7353
+weighted avg       0.57      0.58      0.57      7353
+

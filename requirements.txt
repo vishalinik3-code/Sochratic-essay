@@ -1,0 +1,28 @@
+# =====================================================================================
+# Core (required for Models 1-3, preprocessing, evaluation, comparison, the app)
+# =====================================================================================
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+scipy>=1.10
+joblib>=1.3
+matplotlib>=3.7
+streamlit>=1.30
+
+# =====================================================================================
+# Deep learning (required for Model 4: LSTM and Model 5: BiLSTM)
+# =====================================================================================
+# NOTE: On Windows, `pip install torch` installs a normal-sized, CPU-capable
+# wheel and works out of the box - no GPU or extra setup is required. If you
+# do NOT have an NVIDIA GPU, PyTorch automatically runs on CPU (slower, but
+# fully functional). See README.md "Troubleshooting" if installation fails.
+torch>=2.0
+
+# =====================================================================================
+# Pretrained sentence embeddings (required for Model 6)
+# =====================================================================================
+# Installs a lightweight pretrained model (~80MB, downloaded once and cached)
+# the first time train_model_6.py runs. Depends on 'torch' above and will
+# pull in 'transformers' and 'huggingface_hub' automatically.
+sentence-transformers>=2.2
+

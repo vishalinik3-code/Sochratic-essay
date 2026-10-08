@@ -1,0 +1,12 @@
+Model: TF-IDF + Linear SVM
+============================================================
+              precision    recall  f1-score   support
+
+    Adequate       0.68      0.64      0.66      4196
+   Effective       0.61      0.62      0.61      1865
+ Ineffective       0.35      0.40      0.38      1292
+
+    accuracy                           0.59      7353
+   macro avg       0.55      0.56      0.55      7353
+weighted avg       0.60      0.59      0.60      7353
+
